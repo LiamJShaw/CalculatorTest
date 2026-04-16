@@ -39,7 +39,7 @@ export class ModalComponent {
   }
 
   equals(): void {
-    if (!this.expression()) return;
+    if (!this.expression() || this.expression().endsWith('=')) return;
 
     const amount = parseInt(this.display());
     const isAdd = this.expression().endsWith('+');
