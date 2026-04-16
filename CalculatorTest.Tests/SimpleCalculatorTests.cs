@@ -1,4 +1,4 @@
-﻿using CalculatorTest.Services;
+using CalculatorTest.Services;
 
 namespace CalculatorTest.Tests
 {
@@ -74,6 +74,18 @@ namespace CalculatorTest.Tests
         )
         {
             Assert.Equal(expected, _calculator.Subtract(start, amount));
+        }
+
+        [Fact]
+        public void Add_Overflow_ThrowsOverflowException()
+        {
+            Assert.Throws<OverflowException>(() => _calculator.Add(int.MaxValue, 1));
+        }
+
+        [Fact]
+        public void Subtract_Overflow_ThrowsOverflowException()
+        {
+            Assert.Throws<OverflowException>(() => _calculator.Subtract(int.MinValue, 1));
         }
     }
 }

@@ -51,8 +51,9 @@ export class ModalComponent {
     this.expression.set(`${this.expression()} ${amount} =`);
 
     call.subscribe({
-      next: (r: number) => {
-        this.display.set(String(r));
+      next: (result: number) => {
+        this.start = result;
+        this.display.set(String(result));
         this.fresh = true;
       },
       error: () => {
