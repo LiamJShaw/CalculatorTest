@@ -1,6 +1,18 @@
 <Solution>
-  <Project Path="CalculatorTest.Api/CalculatorTest.Api.csproj" Id="bf156f37-aa7b-4ebf-b96c-4b04c7b0c05d" />
-  <Project Path="CalculatorTest.Services/CalculatorTest.Services.csproj" Id="e71567cf-915f-4ad9-ba7e-b058c99a6a75" />
-  <Project Path="CalculatorTest.Tests/CalculatorTest.Tests.csproj" Id="5a99b2a5-ee6d-44b8-b9a3-d84bf3523d88" />
-  <Project Path="CalculatorTest.Contracts/CalculatorTest.Contracts.csproj" Id="9dfec4b9-275d-4fe1-92b3-a3d1ecf8f89b" />
+  <Project
+    Path="CalculatorTest.Api/CalculatorTest.Api.csproj"
+    Id="bf156f37-aa7b-4ebf-b96c-4b04c7b0c05d"
+  />
+  <Project
+    Path="CalculatorTest.Services/CalculatorTest.Services.csproj"
+    Id="e71567cf-915f-4ad9-ba7e-b058c99a6a75"
+  />
+  <Project
+    Path="CalculatorTest.Tests/CalculatorTest.Tests.csproj"
+    Id="5a99b2a5-ee6d-44b8-b9a3-d84bf3523d88"
+  />
+  <Project
+    Path="CalculatorTest.Contracts/CalculatorTest.Contracts.csproj"
+    Id="9dfec4b9-275d-4fe1-92b3-a3d1ecf8f89b"
+  />
 </Solution>

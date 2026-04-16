@@ -67,7 +67,11 @@ namespace CalculatorTest.Tests
         [InlineData(0, 0, 0)]
         [InlineData(300, 200, 100)]
         [InlineData(50, 50, 0)]
-        public void Subtract_WithMultipleInputs_ReturnsCorrectResult(int start, int amount, int expected)
+        public void Subtract_WithMultipleInputs_ReturnsCorrectResult(
+            int start,
+            int amount,
+            int expected
+        )
         {
             Assert.Equal(expected, _calculator.Subtract(start, amount));
         }

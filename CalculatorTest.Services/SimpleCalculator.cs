@@ -12,7 +12,6 @@ namespace CalculatorTest.Services
             return checked(start + amount);
         }
 
-
         public int Subtract(int start, int amount)
         {
             return checked(start - amount);
