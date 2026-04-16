@@ -1,0 +1,24 @@
+<div class="modal" role="dialog" aria-label="Calculator">
+  <div class="modal-body">
+    <div class="screen">
+      <div class="expression">{{ expression() }}</div>
+      <div class="display">{{ display() }}</div>
+    </div>
+    <div class="keys">
+      <button class="btn-clear" style="grid-area: clear" (click)="clear()">C</button>
+      <button style="grid-area: n7" (click)="digit('7')">7</button>
+      <button style="grid-area: n8" (click)="digit('8')">8</button>
+      <button style="grid-area: n9" (click)="digit('9')">9</button>
+      <button style="grid-area: n4" (click)="digit('4')">4</button>
+      <button style="grid-area: n5" (click)="digit('5')">5</button>
+      <button style="grid-area: n6" (click)="digit('6')">6</button>
+      <button style="grid-area: n1" (click)="digit('1')">1</button>
+      <button style="grid-area: n2" (click)="digit('2')">2</button>
+      <button style="grid-area: n3" (click)="digit('3')">3</button>
+      <button style="grid-area: n0" (click)="digit('0')">0</button>
+      <button style="grid-area: sub" (click)="subtract()">−</button>
+      <button style="grid-area: add" (click)="add()">+</button>
+      <button style="grid-area: eq" (click)="equals()">=</button>
+    </div>
+  </div>
+</div>
