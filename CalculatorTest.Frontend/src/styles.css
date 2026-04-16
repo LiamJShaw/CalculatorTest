@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-bg: #f0f0f0;
+  --color-surface: #ffffff;
+  --color-text: #111111;
+  --color-text-muted: #777777;
+  --color-border: #e0e0e0;
+}
+
+:root[data-theme='dark'] {
+  --color-bg: #1a1a1a;
+  --color-surface: #242424;
+  --color-text: #f0f0f0;
+  --color-text-muted: #a0a0a0;
+  --color-border: #3a3a3a;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}

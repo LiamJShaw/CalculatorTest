@@ -1,0 +1,62 @@
+.modal {
+  width: 300px;
+  margin: 3rem auto;
+  background: var(--color-surface);
+  border-radius: 1rem;
+}
+
+.modal-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.screen {
+  background: var(--color-border);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expression {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.display {
+  font-size: 2rem;
+  text-align: right;
+  word-break: break-all;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "clear clear clear"
+    "n7    n8    n9"
+    "n4    n5    n6"
+    "n1    n2    n3"
+    "n0    n0    n0"
+    "sub   add   eq";
+  gap: 0.5rem;
+}
+
+.keys button {
+  height: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--color-border);
+  color: var(--color-text);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.keys button:hover {
+  opacity: 0.75;
+}
