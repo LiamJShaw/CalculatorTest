@@ -31,3 +31,7 @@ public interface ISimpleCalculator
 7. Ensure the Calculator operations are performed in a modal popup which has a header and a footer.
 8. Ensure the web app can work on a variety of screen sizes and devices.
 9. (Optional) Add functionality on the main web app page to be able to restyle the look and feel of the modal popup.
+
+## Screenshot
+
+![Calculator](CalculatorTest.Frontend/screenshot.png)
